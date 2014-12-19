@@ -17,3 +17,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+
+group :test do
+  gem 'minitest-bang'
+  gem 'minitest-rails'
+  gem 'minitest-rails-capybara'
+end
