@@ -5,10 +5,12 @@
     </tr>
   </thead>
   <tbody>
+  <% @transactions.each do |transaction| %>
     <tr class="transaction">
       <td class="payee">
-        Livingood's
+        <%= transaction.payee %>
       </td>
     </tr>
+  <% end %>
   </tbody>
 </table>
